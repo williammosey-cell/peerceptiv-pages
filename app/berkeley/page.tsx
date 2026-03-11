@@ -61,8 +61,7 @@ export default function BerkeleyPage() {
               Clear ROI Data for Corporate Sponsors
             </h1>
             <p className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed mb-6 sm:mb-8">
-              Peerceptiv turns the real work inside your executive programs into structured skill evidence —
-              giving you the outcome data your sponsors need and your faculty cannot generate alone.
+              Peerceptiv turns the real work inside your executive programs into structured skill evidence. Giving sponsors ROI data and your program a competitive advantage.
             </p>
             <a
               href="#book"
@@ -117,7 +116,7 @@ export default function BerkeleyPage() {
             <div className="border border-blue-100 rounded-xl p-5 sm:p-6 bg-blue-50/50 flex gap-4">
               <div className="flex-shrink-0 w-1 rounded-full bg-blue-400" />
               <div>
-                <p className="text-sm font-semibold text-blue-800 mb-1">High-stakes validation</p>
+                <p className="text-sm font-semibold text-blue-800 mb-1">CFA Institute: High-Stakes Validation</p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   CFA Institute trusts Peerceptiv to validate skill acquisition in its professional certification programs —
                   where the credentialing standard is non-negotiable.
@@ -143,7 +142,7 @@ export default function BerkeleyPage() {
                 },
                 {
                   title: 'The new buying question is "what changed?"',
-                  body: 'Corporate buyers are not asking whether participants finished. They are asking what participants can do differently on Monday morning. If your program cannot answer that question with data, a competitor will find one that can.',
+                  body: 'Corporate buyers are not asking whether participants finished. They are asking what participants can do differently on Monday morning. If your program cannot answer that question with data, a buyer will find one that can.',
                 },
                 {
                   title: 'Internal academies and AI are closing the differentiation gap',
