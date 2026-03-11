@@ -3,6 +3,7 @@
 // Dock-style: clean, premium, purpose-built feel
 
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Peerceptiv for Berkeley Executive Education',
@@ -17,9 +18,7 @@ export default function BerkeleyPage() {
       <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
-          <span className="text-xl font-bold tracking-tight text-gray-900">
-            Peer<span className="text-blue-600">ceptiv</span>
-          </span>
+          <Image src="/logo.png" alt="Peerceptiv" width={160} height={40} className="h-9 w-auto" />
           <a
             href="#book"
             className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors"
@@ -202,9 +201,7 @@ export default function BerkeleyPage() {
       {/* ── FOOTER ── */}
       <footer className="border-t border-gray-100 py-8">
         <div className="max-w-4xl mx-auto px-6 flex items-center justify-between">
-          <span className="text-sm font-semibold text-gray-900">
-            Peer<span className="text-blue-600">ceptiv</span>
-          </span>
+          <Image src="/logo.png" alt="Peerceptiv" width={120} height={30} className="h-7 w-auto" />
           <p className="text-xs text-gray-400">
             Validated by 20 years of research at the University of Pittsburgh
           </p>
