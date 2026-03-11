@@ -186,16 +186,14 @@ export default function BerkeleyPage() {
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-5 sm:mb-6">
               A quick walkthrough built for Berkeley
             </h2>
-            <div className="bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl aspect-video flex items-center justify-center border border-gray-200">
-              <div className="text-center px-4">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                  <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-                <p className="text-sm font-medium text-gray-600">Video walkthrough</p>
-                <p className="text-xs text-gray-400 mt-1">Customized for Berkeley Executive Education</p>
-              </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video">
+              <iframe
+                src="https://www.loom.com/embed/2c2fdd9f4bdb4e268567e5c50f605a33"
+                className="w-full h-full"
+                frameBorder={0}
+                allowFullScreen
+                title="Peerceptiv walkthrough for Berkeley Executive Education"
+              />
             </div>
           </section>
 
