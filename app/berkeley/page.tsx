@@ -121,24 +121,24 @@ export default function BerkeleyPage() {
         <section className="py-16 border-b border-gray-100">
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">The challenge</p>
           <h2 className="text-2xl font-bold text-gray-900 mb-2 max-w-xl">
-            Executive Education Flatlined in 2025
+            The Market Has Shifted. The Programs Thriving Are the Ones That Saw It Coming.
           </h2>
           <p className="text-gray-500 text-sm mb-10 max-w-xl">
-            UNICON 2025 data shows enrollment growth has stalled. The programs winning sponsor renewals are the ones that can prove behavioral change — not just completion.
+            UNICON&apos;s 2025 Benchmarking Survey shows open enrollment revenue dropped 5% and custom program revenue dropped 6% year-over-year. AI is accelerating the shift. Corporate sponsors are tightening ROI requirements. And internal learning academies are eating into traditional executive education territory. The programs winning right now share one thing: they can prove their programs work.
           </p>
           <div className="space-y-6">
             {[
               {
-                title: 'Sponsors want proof, not completion certificates',
-                body: 'Corporate sponsors investing $50K+ per seat need evidence of behavior change, not satisfaction surveys. When renewal conversations come up, "they completed the program" is not a defensible answer.',
+                title: 'Sponsors are cutting programs they cannot measure',
+                body: 'L&D budgets are under review everywhere. When sponsors cannot see evidence of skill change, renewal is a negotiation — not a given. Completion certificates and satisfaction scores are no longer enough to justify a six-figure investment.',
               },
               {
-                title: '"Day One Readiness" is the new bar',
-                body: 'Sponsors are not paying for awareness. They want executives who can lead transformation immediately. Your program needs to show readiness data, not just attendance records.',
+                title: 'The new buying question is "what changed?"',
+                body: 'Corporate buyers are not asking whether participants finished. They are asking what participants can do differently on Monday morning. If your program cannot answer that question with data, a competitor will find one that can.',
               },
               {
-                title: 'Differentiation against global competitors and internal academies',
-                body: 'Corporate universities and global competitors are eroding the traditional executive education value proposition. Programs that can deliver measurable skill proof have a structural advantage.',
+                title: 'Internal academies and AI are closing the differentiation gap',
+                body: 'Corporate universities now offer many of the same topics as executive programs — faster, cheaper, and increasingly AI-enhanced. The programs that retain sponsor relationships are the ones that deliver something internal teams cannot: verified, third-party skill evidence tied to real work.',
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-5">
@@ -157,9 +157,12 @@ export default function BerkeleyPage() {
         {/* ── HOW IT WORKS ── */}
         <section className="py-16 border-b border-gray-100">
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">How it works</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">
             Three steps. No new workflows.
           </h2>
+          <p className="text-gray-500 text-sm mb-10 max-w-xl leading-relaxed">
+            Peerceptiv works inside your existing courses — using the projects, presentations, and capstones you already assign — to surface real skill data you can bring to every sponsor conversation.
+          </p>
           <div className="flex justify-center">
             <Image
               src="/how-it-works.png"
@@ -202,15 +205,13 @@ export default function BerkeleyPage() {
             </p>
           </div>
 
-          {/* HubSpot meeting embed */}
-          <div
-            className="meetings-iframe-container rounded-xl overflow-hidden border border-gray-200"
-            data-src="https://meetings.hubspot.com/william777?embed=true"
-          />
-          <script
-            type="text/javascript"
-            src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
-            async
+          {/* HubSpot meeting embed — direct iframe is the most reliable method */}
+          <iframe
+            src="https://meetings.hubspot.com/william777?embed=true"
+            className="w-full rounded-xl border border-gray-200"
+            style={{ height: '700px' }}
+            frameBorder={0}
+            title="Book a meeting with Will Mosey"
           />
         </section>
 
