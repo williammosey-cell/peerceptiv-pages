@@ -1,6 +1,5 @@
 // app/berkeley/page.tsx
 // Sales dealroom landing page for Berkeley Executive Education
-// Dock-style: clean, premium, purpose-built feel
 
 import type { Metadata } from 'next';
 import Image from 'next/image';
@@ -10,6 +9,24 @@ export const metadata: Metadata = {
   description: 'Peer assessment that proves your programs work — built for executive and professional education.',
 };
 
+const LOGOS = [
+  { name: 'University of Pittsburgh', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/pitt-logo-250x76.png' },
+  { name: 'USC', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/usc-logo-250x53.png' },
+  { name: 'University of Virginia', src: 'https://peerceptiv.com/wp-content/uploads/2020/10/uva_logo_primary-250x61.png' },
+  { name: 'UC Santa Cruz', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/Ucsc-logo-250x69.png' },
+  { name: 'Texas A&M', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/TAM-PrimaryMarkB-1-250x83.png' },
+  { name: 'Vanderbilt', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/vanderbuilt-logo.png' },
+  { name: 'University of Illinois', src: 'https://peerceptiv.com/wp-content/uploads/2021/10/gies_full_blue-250x53.png' },
+  { name: 'NYU', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/nyu-new.png' },
+  { name: 'UW-Madison', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/color-flush-UWlogo-print-1-250x84.png' },
+  { name: 'Northwestern', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/northwestern-u-logo-250x63.png' },
+  { name: 'University of Michigan', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/umichigan-logo-250x26.png' },
+  { name: 'Syracuse', src: 'https://peerceptiv.com/wp-content/uploads/2021/10/syracuselogo-250x113.png' },
+  { name: 'Arizona State', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/Arizona_State_University_old_signature.svg_-250x74.png' },
+  { name: 'Oregon State', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/oregon-state-250x100.png' },
+  { name: 'Nanyang Tech', src: 'https://peerceptiv.com/wp-content/uploads/2024/08/nanyang-tech-uni-250x90.png' },
+];
+
 export default function BerkeleyPage() {
   return (
     <div className="min-h-screen bg-white font-sans">
@@ -17,7 +34,6 @@ export default function BerkeleyPage() {
       {/* ── STICKY NAV ── */}
       <nav className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo */}
           <Image src="/logo.png" alt="Peerceptiv" width={160} height={40} className="h-9 w-auto" />
           <a
             href="#book"
@@ -35,12 +51,15 @@ export default function BerkeleyPage() {
           <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-4">
             Prepared for Berkeley Executive Education
           </p>
-          <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-6 max-w-2xl">
-            Your participants do the work. Now you can prove it.
+          <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-3 max-w-2xl">
+            Clear ROI Data for Corporate Sponsors
           </h1>
-          <p className="text-lg text-gray-600 max-w-xl leading-relaxed mb-8">
+          <p className="text-xl text-gray-500 font-normal mb-6 max-w-xl leading-relaxed">
+            Your participants do the work. Now you can prove it.
+          </p>
+          <p className="text-base text-gray-600 max-w-xl leading-relaxed mb-8">
             Peerceptiv turns the real work inside your executive programs into structured skill evidence —
-            giving you the outcome data your sponsors need and your faculty can't generate alone.
+            giving you the outcome data your sponsors need and your faculty cannot generate alone.
           </p>
           <a
             href="#book"
@@ -55,6 +74,8 @@ export default function BerkeleyPage() {
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-10">
             Trusted by leading institutions
           </p>
+
+          {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mb-12">
             <div className="bg-gray-50 rounded-xl p-6 text-center">
               <p className="text-4xl font-bold text-gray-900 mb-1">150+</p>
@@ -67,6 +88,22 @@ export default function BerkeleyPage() {
             <div className="bg-gray-50 rounded-xl p-6 text-center">
               <p className="text-4xl font-bold text-gray-900 mb-1">20 yrs</p>
               <p className="text-sm text-gray-500">Research at Univ. of Pittsburgh</p>
+            </div>
+          </div>
+
+          {/* Scrolling logo carousel */}
+          <div className="overflow-hidden relative mb-12">
+            <div className="flex gap-12 animate-scroll whitespace-nowrap">
+              {[...LOGOS, ...LOGOS].map((logo, i) => (
+                <div key={i} className="inline-flex items-center justify-center flex-shrink-0 h-12 w-36">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={logo.src}
+                    alt={logo.name}
+                    className="max-h-10 max-w-[130px] w-auto object-contain opacity-60 grayscale hover:opacity-100 hover:grayscale-0 transition-all"
+                  />
+                </div>
+              ))}
             </div>
           </div>
 
@@ -83,22 +120,25 @@ export default function BerkeleyPage() {
         {/* ── THE PROBLEM ── */}
         <section className="py-16 border-b border-gray-100">
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">The challenge</p>
-          <h2 className="text-2xl font-bold text-gray-900 mb-10 max-w-xl">
-            Executive education programs are built for outcomes. Proving those outcomes is another problem.
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 max-w-xl">
+            Executive Education Flatlined in 2025
           </h2>
+          <p className="text-gray-500 text-sm mb-10 max-w-xl">
+            UNICON 2025 data shows enrollment growth has stalled. The programs winning sponsor renewals are the ones that can prove behavioral change — not just completion.
+          </p>
           <div className="space-y-6">
             {[
               {
                 title: 'Sponsors want proof, not completion certificates',
-                body: 'Corporate sponsors invest tens of thousands per participant. When they ask "what did they actually learn?" — completion data and satisfaction scores are not enough. They want skill evidence.',
+                body: 'Corporate sponsors investing $50K+ per seat need evidence of behavior change, not satisfaction surveys. When renewal conversations come up, "they completed the program" is not a defensible answer.',
               },
               {
-                title: 'Faculty bandwidth limits meaningful feedback at scale',
-                body: 'Your faculty are world-class practitioners. But reviewing every submission from every participant in every cohort is not a sustainable model. The feedback gap widens as programs scale.',
+                title: '"Day One Readiness" is the new bar',
+                body: 'Sponsors are not paying for awareness. They want executives who can lead transformation immediately. Your program needs to show readiness data, not just attendance records.',
               },
               {
-                title: 'No unified view of skill progression across your program',
-                body: 'Without structured measurement, you know your participants engaged — you don\'t know which competencies moved and which didn\'t. That makes program improvement a guessing game.',
+                title: 'Differentiation against global competitors and internal academies',
+                body: 'Corporate universities and global competitors are eroding the traditional executive education value proposition. Programs that can deliver measurable skill proof have a structural advantage.',
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-5">
@@ -120,36 +160,14 @@ export default function BerkeleyPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-10">
             Three steps. No new workflows.
           </h2>
-          <div className="grid grid-cols-3 gap-6">
-            {[
-              {
-                step: '01',
-                title: 'Upload',
-                body: 'Participants submit the work they\'re already doing — case analyses, strategy deliverables, leadership reflections. No new assignments required.',
-                color: 'bg-blue-50 border-blue-100',
-                numColor: 'text-blue-600',
-              },
-              {
-                step: '02',
-                title: 'Feedback',
-                body: 'Peers evaluate each other\'s work against your rubric. Structured, consistent, and calibrated — without adding burden to your faculty.',
-                color: 'bg-purple-50 border-purple-100',
-                numColor: 'text-purple-600',
-              },
-              {
-                step: '03',
-                title: 'Insights',
-                body: 'You get a competency-level skill heatmap for every participant and every cohort. Promotion-ready data for sponsors. Evidence your program is working.',
-                color: 'bg-green-50 border-green-100',
-                numColor: 'text-green-600',
-              },
-            ].map((item) => (
-              <div key={item.step} className={`rounded-xl border p-6 ${item.color}`}>
-                <p className={`text-2xl font-bold mb-3 ${item.numColor}`}>{item.step}</p>
-                <p className="font-semibold text-gray-900 mb-2">{item.title}</p>
-                <p className="text-sm text-gray-600 leading-relaxed">{item.body}</p>
-              </div>
-            ))}
+          <div className="flex justify-center">
+            <Image
+              src="/how-it-works.png"
+              alt="How Peerceptiv Works: Real Work, Peer Review, Skills Insights"
+              width={800}
+              height={300}
+              className="w-full max-w-2xl"
+            />
           </div>
         </section>
 
@@ -177,10 +195,10 @@ export default function BerkeleyPage() {
           <div className="bg-gray-50 rounded-2xl border border-gray-200 p-10 text-center mb-10">
             <p className="text-xs font-semibold text-blue-600 uppercase tracking-widest mb-3">Next step</p>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">
-              See if Peerceptiv fits Berkeley's programs
+              See if Peerceptiv fits Berkeley&apos;s programs
             </h2>
             <p className="text-gray-500 text-sm max-w-md mx-auto mb-8">
-              15 minutes. No pressure. We'll show you exactly how it works for executive cohorts and answer any questions about fit.
+              15 minutes. No pressure. We&apos;ll show you exactly how it works for executive cohorts and answer any questions about fit.
             </p>
           </div>
 
@@ -207,6 +225,7 @@ export default function BerkeleyPage() {
           </p>
         </div>
       </footer>
+
 
     </div>
   );
