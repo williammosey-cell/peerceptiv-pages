@@ -172,7 +172,7 @@ export default function BerkeleyPage() {
             </p>
             <div className="flex justify-center">
               <Image
-                src="/how-it-works.png"
+                src="/how-it-works-v2.png"
                 alt="How Peerceptiv Works: Real Work, Peer Review, Skills Insights"
                 width={800}
                 height={300}
