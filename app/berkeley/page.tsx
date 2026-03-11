@@ -186,13 +186,13 @@ export default function BerkeleyPage() {
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-5 sm:mb-6">
               A quick walkthrough built for Berkeley
             </h2>
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video">
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm" style={{ position: 'relative', paddingBottom: '65.02%', height: 0 }}>
               <iframe
-                src="https://www.loom.com/embed/2c2fdd9f4bdb4e268567e5c50f605a33"
-                className="w-full h-full"
+                src="https://www.loom.com/embed/c018aaee32c24a78bdc9193d96addee6"
                 frameBorder={0}
                 allowFullScreen
                 title="Peerceptiv walkthrough for Berkeley Executive Education"
+                style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               />
             </div>
           </section>
