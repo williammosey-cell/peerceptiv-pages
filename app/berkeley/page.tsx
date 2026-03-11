@@ -130,7 +130,7 @@ export default function BerkeleyPage() {
               The Market Has Shifted. The Programs Thriving Are the Ones That Saw It Coming.
             </h2>
             <p className="text-gray-500 text-sm mb-10 max-w-2xl leading-relaxed">
-              UNICON&apos;s 2025 Benchmarking Survey shows open enrollment revenue dropped 5% and custom program revenue dropped 6% year-over-year. AI is accelerating the shift. Corporate sponsors are tightening ROI requirements. And internal learning academies are eating into traditional executive education territory. The programs winning right now share one thing: they can prove their programs work.
+              UNICON&apos;s July 2025 Pulse Survey found that US executive education programs saw an 18% decrease in both custom and open enrollment demand — the steepest decline of any region globally. At the same time, more than half of exec ed leaders report increased pressure from institutional leadership on revenue and financial performance.
             </p>
             <div className="space-y-4">
               {[
