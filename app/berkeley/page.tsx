@@ -31,39 +31,42 @@ export default function BerkeleyPage() {
   return (
     <div className="min-h-screen bg-white font-sans">
 
-      {/* ── STICKY NAV — backdrop blur gives it depth when scrolling ── */}
+      {/* ── STICKY NAV ── */}
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 shadow-sm">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Image src="/logo.png" alt="Peerceptiv" width={160} height={40} className="h-9 w-auto" />
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-4">
+          <Image src="/logo.png" alt="Peerceptiv" width={140} height={36} className="h-7 sm:h-9 w-auto flex-shrink-0" />
           <a
             href="#book"
-            className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors shadow-sm"
+            className="px-4 sm:px-5 py-2 sm:py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-semibold rounded-lg transition-colors shadow-sm whitespace-nowrap"
           >
-            Book a 15-Minute Demo
+            {/* Shorter label on mobile, full label on desktop */}
+            <span className="sm:hidden">Book a Demo</span>
+            <span className="hidden sm:inline">Book a 15-Minute Demo</span>
           </a>
         </div>
       </nav>
 
-      {/* ── HERO — subtle blue gradient so it doesn't feel plain white ── */}
+      {/* ── HERO ── */}
       <div className="bg-gradient-to-b from-blue-50/60 to-white">
-        <main className="max-w-4xl mx-auto px-6">
+        <main className="max-w-4xl mx-auto px-4 sm:px-6">
 
-          <section className="py-24 border-b border-gray-100">
+          <section className="py-14 sm:py-24 border-b border-gray-100">
             {/* Eyebrow badge */}
-            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-6 uppercase tracking-wide">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-500 inline-block" />
+            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-5 sm:mb-6 uppercase tracking-wide">
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-500 inline-block flex-shrink-0" />
               Prepared for Berkeley Executive Education
             </div>
-            <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-5 max-w-2xl">
-              Clear ROI Data for<br />Corporate Sponsors
+            {/* Headline: smaller on mobile, large on desktop */}
+            <h1 className="text-3xl sm:text-5xl font-bold text-gray-900 leading-tight mb-4 sm:mb-5 max-w-2xl">
+              Clear ROI Data for Corporate Sponsors
             </h1>
-            <p className="text-lg text-gray-600 max-w-xl leading-relaxed mb-8">
+            <p className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed mb-6 sm:mb-8">
               Peerceptiv turns the real work inside your executive programs into structured skill evidence —
               giving you the outcome data your sponsors need and your faculty cannot generate alone.
             </p>
             <a
               href="#book"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg text-base transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg text-sm sm:text-base transition-colors shadow-md hover:shadow-lg"
             >
               Book a 15-Minute Demo
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,45 +76,45 @@ export default function BerkeleyPage() {
           </section>
 
           {/* ── SOCIAL PROOF ── */}
-          <section className="py-16 border-b border-gray-100">
-            <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-10">
+          <section className="py-12 sm:py-16 border-b border-gray-100">
+            <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-8 sm:mb-10">
               Trusted by leading institutions
             </p>
 
-            {/* Stats — blue accent on numbers */}
-            <div className="grid grid-cols-3 gap-6 mb-12">
-              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-6 text-center">
+            {/* Stats: 1 column on mobile, 3 on sm+ */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-12">
+              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">150+</p>
                 <p className="text-sm text-gray-500">Universities using Peerceptiv</p>
               </div>
-              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-6 text-center">
+              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">35%</p>
                 <p className="text-sm text-gray-500">Better learning outcomes</p>
               </div>
-              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-6 text-center">
+              <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">20 yrs</p>
                 <p className="text-sm text-gray-500">Research at Univ. of Pittsburgh</p>
               </div>
             </div>
 
             {/* Scrolling logo carousel */}
-            <div className="overflow-hidden relative mb-12">
-              <div className="flex gap-12 animate-scroll whitespace-nowrap">
+            <div className="overflow-hidden relative mb-10 sm:mb-12">
+              <div className="flex gap-10 sm:gap-12 animate-scroll whitespace-nowrap">
                 {[...LOGOS, ...LOGOS].map((logo, i) => (
-                  <div key={i} className="inline-flex items-center justify-center flex-shrink-0 h-12 w-36">
+                  <div key={i} className="inline-flex items-center justify-center flex-shrink-0 h-10 w-28 sm:h-12 sm:w-36">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={logo.src}
                       alt={logo.name}
-                      className="max-h-10 max-w-[130px] w-auto object-contain opacity-50 grayscale hover:opacity-90 hover:grayscale-0 transition-all duration-300"
+                      className="max-h-8 sm:max-h-10 max-w-[110px] sm:max-w-[130px] w-auto object-contain opacity-50 grayscale hover:opacity-90 hover:grayscale-0 transition-all duration-300"
                     />
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* CFA callout — left border accent */}
-            <div className="border border-blue-100 rounded-xl p-6 bg-blue-50/50 flex gap-4">
+            {/* CFA callout */}
+            <div className="border border-blue-100 rounded-xl p-5 sm:p-6 bg-blue-50/50 flex gap-4">
               <div className="flex-shrink-0 w-1 rounded-full bg-blue-400" />
               <div>
                 <p className="text-sm font-semibold text-blue-800 mb-1">High-stakes validation</p>
@@ -123,13 +126,13 @@ export default function BerkeleyPage() {
             </div>
           </section>
 
-          {/* ── THE PROBLEM — styled as cards with subtle shadow ── */}
-          <section className="py-16 border-b border-gray-100">
+          {/* ── THE PROBLEM ── */}
+          <section className="py-12 sm:py-16 border-b border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">The challenge</p>
-            <h2 className="text-3xl font-bold text-gray-900 mb-3 max-w-2xl leading-snug">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 max-w-2xl leading-snug">
               The Market Has Shifted. The Programs Thriving Are the Ones That Saw It Coming.
             </h2>
-            <p className="text-gray-500 text-sm mb-10 max-w-2xl leading-relaxed">
+            <p className="text-gray-500 text-sm mb-8 sm:mb-10 max-w-2xl leading-relaxed">
               UNICON&apos;s July 2025 Pulse Survey found that US executive education programs saw an 18% decrease in both custom and open enrollment demand — the steepest decline of any region globally. At the same time, more than half of exec ed leaders report increased pressure from institutional leadership on revenue and financial performance.
             </p>
             <div className="space-y-4">
@@ -147,11 +150,10 @@ export default function BerkeleyPage() {
                   body: 'Corporate universities now offer many of the same topics as executive programs — faster, cheaper, and increasingly AI-enhanced. The programs that retain sponsor relationships are the ones that deliver something internal teams cannot: verified, third-party skill evidence tied to real work.',
                 },
               ].map((item, i) => (
-                // Each problem is a card with a red left accent stripe
                 <div key={i} className="flex gap-0 rounded-xl border border-gray-100 shadow-sm overflow-hidden bg-white">
                   <div className="w-1 bg-red-400 flex-shrink-0" />
-                  <div className="px-6 py-5">
-                    <p className="font-semibold text-gray-900 mb-1">{item.title}</p>
+                  <div className="px-4 sm:px-6 py-4 sm:py-5">
+                    <p className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">{item.title}</p>
                     <p className="text-gray-500 text-sm leading-relaxed">{item.body}</p>
                   </div>
                 </div>
@@ -160,12 +162,12 @@ export default function BerkeleyPage() {
           </section>
 
           {/* ── HOW IT WORKS ── */}
-          <section className="py-16 border-b border-gray-100">
+          <section className="py-12 sm:py-16 border-b border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">How it works</p>
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
               Three steps. No new workflows.
             </h2>
-            <p className="text-gray-500 text-sm mb-10 max-w-xl leading-relaxed">
+            <p className="text-gray-500 text-sm mb-8 sm:mb-10 max-w-xl leading-relaxed">
               Peerceptiv works inside your existing courses — using the projects, presentations, and capstones you already assign — to surface real skill data you can bring to every sponsor conversation.
             </p>
             <div className="flex justify-center">
@@ -180,15 +182,15 @@ export default function BerkeleyPage() {
           </section>
 
           {/* ── VIDEO ── */}
-          <section className="py-16 border-b border-gray-100">
+          <section className="py-12 sm:py-16 border-b border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">See it in action</p>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-5 sm:mb-6">
               A quick walkthrough built for Berkeley
             </h2>
             <div className="bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl aspect-video flex items-center justify-center border border-gray-200">
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-7 h-7 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+              <div className="text-center px-4">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                  <svg className="w-6 h-6 sm:w-7 sm:h-7 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
@@ -199,11 +201,11 @@ export default function BerkeleyPage() {
           </section>
 
           {/* ── FINAL CTA / BOOK ── */}
-          <section id="book" className="py-16 mb-8">
+          <section id="book" className="py-12 sm:py-16 mb-6 sm:mb-8">
             {/* Bold CTA banner */}
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-10 text-center mb-10 shadow-lg">
-              <p className="text-xs font-semibold text-blue-200 uppercase tracking-widest mb-3">Next step</p>
-              <h2 className="text-3xl font-bold text-white mb-3">
+            <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-6 sm:p-10 text-center mb-8 sm:mb-10 shadow-lg">
+              <p className="text-xs font-semibold text-blue-200 uppercase tracking-widest mb-2 sm:mb-3">Next step</p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 sm:mb-3">
                 See if Peerceptiv fits Berkeley&apos;s programs
               </h2>
               <p className="text-blue-100 text-sm max-w-md mx-auto">
@@ -211,11 +213,11 @@ export default function BerkeleyPage() {
               </p>
             </div>
 
-            {/* HubSpot meeting embed — direct iframe is the most reliable method */}
+            {/* HubSpot meeting embed — direct iframe, height adjusted for mobile */}
             <iframe
               src="https://meetings.hubspot.com/william777?embed=true"
               className="w-full rounded-2xl border border-gray-200 shadow-sm"
-              style={{ height: '700px' }}
+              style={{ height: '680px', minHeight: '500px' }}
               frameBorder={0}
               title="Book a meeting with Will Mosey"
             />
@@ -224,11 +226,11 @@ export default function BerkeleyPage() {
         </main>
       </div>
 
-      {/* ── FOOTER ── */}
-      <footer className="border-t border-gray-100 bg-gray-50 py-8">
-        <div className="max-w-4xl mx-auto px-6 flex items-center justify-between">
-          <Image src="/logo.png" alt="Peerceptiv" width={120} height={30} className="h-7 w-auto" />
-          <p className="text-xs text-gray-400">
+      {/* ── FOOTER — stacks on mobile ── */}
+      <footer className="border-t border-gray-100 bg-gray-50 py-6 sm:py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center gap-3 sm:justify-between">
+          <Image src="/logo.png" alt="Peerceptiv" width={120} height={30} className="h-6 sm:h-7 w-auto" />
+          <p className="text-xs text-gray-400 text-center sm:text-right">
             Validated by 20 years of research at the University of Pittsburgh
           </p>
         </div>
