@@ -120,7 +120,7 @@ export default function BerkeleyPage() {
                 <p className="text-sm font-semibold text-blue-800 mb-1">High-stakes validation</p>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   CFA Institute trusts Peerceptiv to validate skill acquisition in its professional certification programs —
-                  where the credentialing standard is non-negotiable. If it works for CFA, it works for your executive cohorts.
+                  where the credentialing standard is non-negotiable.
                 </p>
               </div>
             </div>
