@@ -28,5 +28,35 @@
     "ctaHeading": "See what Peerceptiv can do for Berkeley's Programs",
     "ctaBody": "15 minutes. We'll show you exactly how it works for executive cohorts and answer any questions about fit.",
     "hubspotUrl": "https://meetings.hubspot.com/william777"
+  },
+  {
+    "slug": "jpmorgan-chase",
+    "companyName": "JPMorgan Chase ",
+    "eyebrow": "Prepared for JPMorgan Chase ",
+    "headline": "JPMorgan Develops the Best Analysts. Now You Can Prove It.",
+    "subheading": "JPMorgan Chase runs some of the most competitive early career programs in financial services. Peerceptiv helps you measure whether your analysts are actually ready — not just whether they showed up.",
+    "challengeHeader": "The Problem With Manager-Centric Assessment at Scale",
+    "challengeIntro": "When early career cohorts span Investment Banking, Wealth Management, Commercial Banking, and Technology — each with its own managing directors and VPs reviewing project work — assessment becomes inconsistent by design. In organizations your size, a consistent pattern emerges: some analysts get rigorous, detailed feedback. Others get a checkbox. And no one can answer the question that matters most at promotion time.",
+    "challengeBullets": [
+      {
+        "title": "50+ Business Lines. 50+ Different Grading Standards.",
+        "body": "When every managing director evaluates Summer Analysts and early career cohorts against their own internal bar, you don't have a feedback system — you have a lottery. Structured peer review enforces a consistent rubric across every division, every cohort, every geography."
+      },
+      {
+        "title": "You Can See Completion. You Can't See Readiness.",
+        "body": "JPMorgan Chase's early career programs are built around real work — deal analysis, client case projects, analytics deliverables. That's exactly the kind of high-stakes output that deserves rigorous evaluation. But 'completed the project' and 'has the judgment to advise clients' are two very different data points. Right now, you're measuring one of them."
+      },
+      {
+        "title": "Your Managing Directors Are Doing Two Jobs.",
+        "body": "Reviewing 30+ project submissions per cohort cycle is not a high-value use of a VP or MD's time. At firms like Accenture — running 1,500+ licenses across structured cohorts — Peerceptiv reduced grading burden by 85%. Peer review handles the volume. Your managers focus on development conversations that actually build the leadership pipeline."
+      }
+    ],
+    "howItWorksSubheader": "Structured peer review that works inside JPMorgan Chase's competency framework — not instead of it.",
+    "howItWorksImage": "/how-it-works-v3.png",
+    "loomUrl": "",
+    "loomAspectPadding": "65.02%",
+    "ctaHeading": "See What Peerceptiv Can Do for JPMorgan Chase's Programs",
+    "ctaBody": "Peerceptiv doesn't replace your competency model or your managers. It gives you the measurement infrastructure to prove — with data — that your early career talent is ready for the next level. If you're evaluating how to scale consistent, rigorous assessment across your analyst and associate cohorts, let's talk. Accenture saw 35% better learning outcomes and 85% less grading time. Here's what that looks like in your context.",
+    "hubspotUrl": "https://meetings.hubspot.com/william777"
   }
 ]
