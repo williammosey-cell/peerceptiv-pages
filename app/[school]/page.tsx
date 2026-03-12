@@ -119,7 +119,7 @@ export default function SchoolPage({ params }: { params: { school: string } }) {
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">35%</p>
-                <p className="text-sm text-gray-500">Improve learning outcomes by 35%</p>
+                <p className="text-sm text-gray-500">improvement in learning outcomes</p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">20 yrs</p>
