@@ -61,7 +61,7 @@ export default function BerkeleyPage() {
               Clear ROI Data for Corporate Sponsors
             </h1>
             <p className="text-base sm:text-lg text-gray-600 max-w-xl leading-relaxed mb-6 sm:mb-8">
-              Peerceptiv turns the real work inside your executive programs into structured skill evidence. Giving sponsors ROI data and your program a competitive advantage.
+              Peerceptiv turns the real work inside your executive programs into structured skill evidence, giving sponsors ROI data they demand and your program a competitive advantage.
             </p>
             <a
               href="#book"
@@ -88,7 +88,7 @@ export default function BerkeleyPage() {
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">35%</p>
-                <p className="text-sm text-gray-500">Better learning outcomes</p>
+                <p className="text-sm text-gray-500">Improve learning outcomes by 35%</p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">20 yrs</p>
@@ -129,7 +129,7 @@ export default function BerkeleyPage() {
           <section className="py-12 sm:py-16 border-b border-gray-100">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-3">The challenge</p>
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 max-w-2xl leading-snug">
-              The Market Has Shifted. The Programs Thriving Are the Ones That Saw It Coming.
+              The Market Has Shifted. Differentiate your Program.
             </h2>
             <p className="text-gray-500 text-sm mb-8 sm:mb-10 max-w-2xl leading-relaxed">
               UNICON&apos;s July 2025 Pulse Survey found that US executive education programs saw an 18% decrease in both custom and open enrollment demand — the steepest decline of any region globally. At the same time, more than half of exec ed leaders report increased pressure from institutional leadership on revenue and financial performance.
@@ -142,11 +142,11 @@ export default function BerkeleyPage() {
                 },
                 {
                   title: 'The new buying question is "what changed?"',
-                  body: 'Corporate buyers are not asking whether participants finished. They are asking what participants can do differently on Monday morning. If your program cannot answer that question with data, a buyer will find one that can.',
+                  body: 'Corporate buyers are not asking whether participants finished. They are asking if they can apply newly learned skills. If your program cannot answer that question with data, a buyer will find one that can.',
                 },
                 {
-                  title: 'Internal academies and AI are closing the differentiation gap',
-                  body: 'Corporate universities now offer many of the same topics as executive programs — faster, cheaper, and increasingly AI-enhanced. The programs that retain sponsor relationships are the ones that deliver something internal teams cannot: verified, third-party skill evidence tied to real work.',
+                  title: 'Internal academies are closing the differentiation gap',
+                  body: 'Corporate universities now offer many of the same topics as executive programs, but faster and cheaper. The programs that retain sponsor relationships are the ones that deliver something internal teams cannot: verified, third-party skill evidence tied to real work.',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex gap-0 rounded-xl border border-gray-100 shadow-sm overflow-hidden bg-white">
@@ -171,7 +171,7 @@ export default function BerkeleyPage() {
             </p>
             <div className="flex justify-center">
               <Image
-                src="/how-it-works-v2.png"
+                src="/how-it-works-v3.png"
                 alt="How Peerceptiv Works: Real Work, Peer Review, Skills Insights"
                 width={800}
                 height={300}
@@ -203,10 +203,10 @@ export default function BerkeleyPage() {
             <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-6 sm:p-10 text-center mb-8 sm:mb-10 shadow-lg">
               <p className="text-xs font-semibold text-blue-200 uppercase tracking-widest mb-2 sm:mb-3">Next step</p>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-2 sm:mb-3">
-                See if Peerceptiv fits Berkeley&apos;s programs
+                See what Peerceptiv can do for Berkeley&apos;s Programs
               </h2>
               <p className="text-blue-100 text-sm max-w-md mx-auto">
-                15 minutes. No pressure. We&apos;ll show you exactly how it works for executive cohorts and answer any questions about fit.
+                15 minutes. We&apos;ll show you exactly how it works for executive cohorts and answer any questions about fit.
               </p>
             </div>
 
