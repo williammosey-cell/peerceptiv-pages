@@ -118,5 +118,35 @@
     "ctaHeading": "See what Peerceptiv can do for Prudential Financial's Programs",
     "ctaBody": "We'll show you exactly how Peerceptiv fits into your existing rotation and evaluation structure, with a live look at the skill heatmaps and competency dashboards. \n\nBook a 15-minute walkthrough.",
     "hubspotUrl": "https://meetings.hubspot.com/william777"
+  },
+  {
+    "slug": "blackrock",
+    "companyName": "Blackrock",
+    "eyebrow": "Prepared for Blackrock",
+    "headline": "BlackRock Measures Everything. What About Early Career Mastery?",
+    "subheading": "BlackRock's early career analysts work on real investment, risk, and analytics problems from day one. Peerceptiv tells you — with data — which ones have actually mastered the competencies that matter.",
+    "challengeHeader": "The Gap Between 'Program Completed' and 'Ready to Perform'",
+    "challengeIntro": "At BlackRock's scale — with early career talent distributed across divisions, geographies, and business units — running a consistent, rigorous assessment process is operationally hard. Most programs can answer 'did they complete it?' What they can't answer is 'are they ready?' That's the gap that shows up in month 8, not month 1.",
+    "challengeBullets": [
+      {
+        "title": "Manager Bandwidth Is a Bottleneck",
+        "body": "When analysts and associates submit real project work — portfolio analyses, risk assessments, client presentations — someone has to review it. Across dozens of managers and multiple divisions, that review burden accumulates fast. Managers end up grading submissions instead of coaching talent."
+      },
+      {
+        "title": "Feedback Consistency Breaks Down at Scale",
+        "body": "With early career evaluation distributed across business units from Asset Management to Aladdin to iShares, there's no guarantee a cohort in London gets the same quality of feedback as one in New York. Without a shared rubric framework, 'strong performer' means something different in every room."
+      },
+      {
+        "title": "No Unified View of Readiness for Leadership",
+        "body": "BlackRock's exec team can see portfolio performance to the basis point. But when a business unit leader asks 'which of our analysts are ready to move up?' — what does your data actually show? Completion rates and manager impressions aren't a readiness answer. A skill heatmap by competency is."
+      }
+    ],
+    "howItWorksSubheader": "Structured Peer Review That Scales Across Every Division and Cohort",
+    "howItWorksImage": "/how-it-works-v3.png",
+    "loomUrl": "",
+    "loomAspectPadding": "65.02%",
+    "ctaHeading": "See What Peerceptiv Can Do for BlackRock's Programs",
+    "ctaBody": "Accenture deployed Peerceptiv across 1,500 licenses to solve exactly this problem — distributed cohorts, real work deliverables, and a leadership team that needed skill proof, not completion data. If you're ready to see what that looks like for BlackRock's early career programs, let's talk. No pitch deck — just a focused conversation about where your current process has gaps and whether we can fill them.",
+    "hubspotUrl": "https://meetings.hubspot.com/william777"
   }
 ]
