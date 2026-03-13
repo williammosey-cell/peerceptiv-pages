@@ -25,6 +25,7 @@ const LOGOS = [
   { name: 'Arizona State', src: 'https://peerceptiv.com/wp-content/uploads/2018/08/Arizona_State_University_old_signature.svg_-250x74.png' },
   { name: 'Oregon State', src: 'https://peerceptiv.com/wp-content/uploads/2023/09/oregon-state-250x100.png' },
   { name: 'Nanyang Tech', src: 'https://peerceptiv.com/wp-content/uploads/2024/08/nanyang-tech-uni-250x90.png' },
+  { name: 'CFA Institute', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/CFA_Institute_Logo.svg/200px-CFA_Institute_Logo.svg.png' },
 ];
 
 export default function BerkeleyPage() {
@@ -84,7 +85,7 @@ export default function BerkeleyPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-12">
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">150+</p>
-                <p className="text-sm text-gray-500">Universities using Peerceptiv</p>
+                <p className="text-sm text-gray-500">Used by 150+ institutions — from top universities to Fortune 500 leaders</p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">35%</p>
