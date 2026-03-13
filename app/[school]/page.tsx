@@ -116,7 +116,7 @@ export default function SchoolPage({ params }: { params: { school: string } }) {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-12">
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">150+</p>
-                <p className="text-sm text-gray-500">Used by 150+ institutions — from top universities to Fortune 500 leaders</p>
+                <p className="text-sm text-gray-500">Top universities to Fortune 500 leaders</p>
               </div>
               <div className="rounded-2xl border border-gray-100 bg-white shadow-sm p-5 sm:p-6 text-center">
                 <p className="text-4xl font-bold text-blue-600 mb-1">35%</p>
