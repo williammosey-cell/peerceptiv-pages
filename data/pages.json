@@ -94,25 +94,25 @@
     "companyName": "Prudential Financial ",
     "eyebrow": "Prepared for Prudential Financial ",
     "headline": "Your Early-Career Programs Are Rigorous. Your Skill Data Should Be Too.",
-    "subheading": "Prudential Financial runs structured, multi-cohort early-career programs across the Chief Investment Office and beyond — but when 100+ associates complete rotations simultaneously, can you actually show which competencies are mastered and which are still at risk? Peerceptiv gives you that answer.",
+    "subheading": "Prudential Financial runs structured, multi-cohort early-career programs across Investments, Actuarial and beyond — but when 100+ associates complete rotations simultaneously, can you actually show which competencies are mastered and which are still at risk? Peerceptiv gives you that answer.",
     "challengeHeader": "The Evaluation Gap Hiding Inside Well-Run Programs",
-    "challengeIntro": "Prudential's early-career infrastructure is best-in-class — rotation structures, graduation milestones, executive dashboards. But the firms we work with in financial services consistently hit the same wall: they can report completion and satisfaction, but not skill mastery. Here's where the friction shows up.",
+    "challengeIntro": "Firms we work with in financial services consistently hit the same wall: they can report completion and satisfaction, but not skill mastery. Here's where the friction shows up.",
     "challengeBullets": [
       {
         "title": "30 managers. 100+ associates. No consistent signal.",
-        "body": "When associates are distributed across CIO rotations and evaluated by different managers simultaneously, feedback quality varies — not because managers aren't capable, but because there's no shared rubric anchoring 'analytical rigor' or 'risk judgment' across cohorts. The result: your exec team gets feedback volume, not skill evidence."
+        "body": "When associates are distributed across programs and evaluated by different managers, feedback quality varies — not because managers aren't capable, but because there's no shared rubric anchoring 'analytical rigor' or 'risk judgment' across cohorts. The result: your exec team gets feedback volume, not skill evidence."
       },
       {
         "title": "You can answer 'did they complete it?' — not 'are they ready?'",
-        "body": "Rotation sign-offs and program surveys tell you engagement happened. They don't tell you which associates have mastered investment analysis or where competency gaps are clustered across your cohort. When leadership asks 'are they ready for the next rotation?' — right now, the honest answer is probably 'we think so.'"
+        "body": "Rotation sign-offs and program surveys tell you engagement happened. They don't tell you which associates have mastered investment analysis or where competency gaps are clustered across your cohort. When leadership asks 'are they ready for the next rotation?' — what data do you have now..."
       },
       {
-        "title": "Manager review burden scales with every new cohort.",
+        "title": "SME review burden scales with every new cohort.",
         "body": "With continuous recruiting into early-talent programs, every new cohort adds to the evaluation load on your senior associates and managers. That's a retention and burnout risk hiding in plain sight — and it gets worse as programs grow, not better."
       }
     ],
     "howItWorksSubheader": "Structured peer review — anchored to your competency rubrics — handles 80% of the evaluation work, surfaces mastery data by competency across every associate and cohort, and frees your managers to coach instead of grade. A financial services proof point: 96% competency mastery achieved at a Fortune 100 insurer using this exact model.",
-    "howItWorksImage": "/how-it-works-v3.png",
+    "howItWorksImage": "How it Works",
     "loomUrl": "",
     "loomAspectPadding": "65.02%",
     "ctaHeading": "See what Peerceptiv can do for Prudential Financial's Programs",
