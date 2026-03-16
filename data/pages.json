@@ -148,5 +148,35 @@
     "ctaHeading": "See What Peerceptiv Can Do for BlackRock's Programs",
     "ctaBody": "Accenture deployed Peerceptiv across 1,500 licenses to solve exactly this problem — distributed cohorts, real work deliverables, and a leadership team that needed skill proof, not completion data. If you're ready to see what that looks like for BlackRock's early career programs, let's talk. No pitch deck — just a focused conversation about where your current process has gaps and whether we can fill them.",
     "hubspotUrl": "https://meetings.hubspot.com/william777"
+  },
+  {
+    "slug": "aptiv",
+    "companyName": "Aptiv ",
+    "eyebrow": "Prepared for Aptiv ",
+    "headline": "You Can Prove Aptiv's Early Career Investment Is Working — Not Just That It Happened",
+    "subheading": "Aptiv develops emerging talent across 50+ countries. Peerceptiv provides the platform to apply and measure in-demand skills for a future-ready workforce. ",
+    "challengeHeader": "The Gap Between 'They Completed It' and 'They're Ready'",
+    "challengeIntro": "You've built a metrics-driven talent strategy that connects people investment to enterprise value. But when it comes to early careers and emerging talent, the data most platforms give you stops at completion — not capability. That gap is a board-level risk.",
+    "challengeBullets": [
+      {
+        "title": "Managers across 50 countries can't scale consistent development",
+        "body": "When every manager reviews work-quality differently, your early career cohorts don't get equitable development — they get whoever happened to be their reviewer that quarter. At Aptiv's scale, that inconsistency compounds quickly. "
+      },
+      {
+        "title": "Most can answer 'did they finish?' but not 'are they ready to lead?'",
+        "body": "Your board-level narrative demands KPIs that connect learning to performance. Course completions don't give you that. Without competency-level mastery data, it's nearly impossible to answer the question that matters: which emerging talent is actually ready for the next level?"
+      },
+      {
+        "title": "Regrettable attrition starts when high-potential talent doesn't feel developed",
+        "body": "Early career professionals leave when they don't see growth. Generic feedback from overloaded managers — or no feedback at all — signals that development isn't real. Structured peer review gives every participant rigorous, rubric-based feedback that feels like investment, not checkbox."
+      }
+    ],
+    "howItWorksSubheader": "Peerceptiv replaces inconsistent manager grading with structured peer assessment — so every emerging talent at Aptiv gets calibrated, rubric-based feedback, and you get a competency heatmap that finally answers: who's ready?",
+    "howItWorksImage": "/how-it-works-v3.png",
+    "loomUrl": "<div style=\"position: relative; padding-bottom: 57.446808510638306%; height: 0;\"><iframe src=\"https://www.loom.com/embed/8be9ad35101b4989a2cc27eb2295d730\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>",
+    "loomAspectPadding": "65.02%",
+    "ctaHeading": "See What Peerceptiv Can Do for Aptiv's Programs",
+    "ctaBody": "Book a 30-minute session to see how Peerceptiv gives Aptiv's early careers program the ability to apply key skills, plus the board-ready narrative to prove your talent investment is building the pipeline you're promising.",
+    "hubspotUrl": "https://meetings.hubspot.com/william777"
   }
 ]
