@@ -238,5 +238,35 @@
     "ctaHeading": "See What Peerceptiv Can Do for Prudential's Programs",
     "ctaBody": "A peer-validated competency layer sits on top of the skills architecture Prudential has already built — turning internal mobility and succession decisions from gut-feel nominations into defensible, evidence-backed readiness profiles. We've driven 96% mastery achievement at a comparable F100 insurer and reduced assessment burden by 85%. If you're ready to close the gap between skills mapped and skills proven, let's show you how it works in practice.",
     "hubspotUrl": "https://meetings.hubspot.com/william777"
+  },
+  {
+    "slug": "chubb",
+    "companyName": "Chubb",
+    "eyebrow": "Prepared for Chubb",
+    "headline": "Your Apprentice Program Develops Talent. But Can You Prove Who's Ready?",
+    "subheading": "Chubb's early career programs span the US, EMEA, and Asia Pacific — across three career tracks and hundreds of mentors. Peerceptiv gives you the skill data to move from 'we think they're ready' to 'we can prove it.'",
+    "challengeHeader": "The Gap Inside High-Investment Programs Like Chubb's",
+    "challengeIntro": "Chubb's Apprentice Program and Early Career Development Programme are built to develop talent — with mentorship, real project work, and a clear path to permanent placement. But when it's time to decide who's truly ready, most programs hit the same wall.",
+    "challengeBullets": [
+      {
+        "title": "Mentors Are Grading, Not Developing",
+        "body": "Across 25+ countries and three career tracks — Tech, Claims, and beyond — your mentors are spending hours evaluating project submissions instead of coaching the next generation. That's not what they signed up for, and it doesn't scale."
+      },
+      {
+        "title": "A Mentor in London and a Mentor in New York Aren't Evaluating the Same Way",
+        "body": "Chubb's programs emphasize people skills, drive, and the ability to think on your feet. But without a shared rubric enforced at every touchpoint, 'ready for permanent placement' means something different to every evaluator across every geography."
+      },
+      {
+        "title": "You Can Answer 'Did They Complete It?' — Not 'Are They Ready?'",
+        "body": "When an executive asks which cohort members should convert to permanent roles — or which apprentices are at risk — the honest answer is usually a mentor's opinion. In insurance, that's not a defensible answer. You need skill data, not gut feel."
+      }
+    ],
+    "howItWorksSubheader": "Structured peer review replaces the grading burden, enforces consistent rubrics across every region, and generates a competency-level heatmap showing exactly where each apprentice stands — so Chubb's mentors can coach, and your program leaders can decide with confidence.",
+    "howItWorksImage": "/how-it-works-v3.png",
+    "loomUrl": "",
+    "loomAspectPadding": "65.02%",
+    "ctaHeading": "See What Peerceptiv Can Do for Chubb's Programs",
+    "ctaBody": "One F100 insurer achieved 96% skill mastery across their org-defined competency framework while cutting mentor grading time by 85% — and accelerated time-to-competency across every program they ran. If Chubb is investing in early career talent at global scale, you should know exactly who's ready to stay, grow, and lead. Let's show you how.",
+    "hubspotUrl": "https://meetings.hubspot.com/william777"
   }
 ]
